@@ -1,0 +1,80 @@
+#works {
+  margin: 0 auto;
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.worksTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.worksContent {
+  font-weight: 200;
+  font-size: 1rem;
+  max-width: 50rem;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+  max-width: 45rem;
+}
+
+.worksImgs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  max-width: 65rem;
+}
+
+.worksImg {
+  object-fit: cover;
+  width: 18rem;
+  height: 20rem;
+  border-radius: 2rem;
+  margin: 0.5rem;
+}
+
+.worksBtn {
+  background: white;
+  background-image: -webkit-linear-gradient(top, white, grey);
+  background-image: -moz-linear-gradient(top, white, grey);
+  background-image: -ms-linear-gradient(top, white, grey);
+  background-image: -o-linear-gradient(top, white, grey);
+  background-image: linear-gradient(to bottom, white, grey);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 1.5rem;
+}
+
+.worksBtn:hover {
+  background: grey;
+  background-image: -webkit-linear-gradient(top, grey, white);
+  background-image: -moz-linear-gradient(top, grey, white);
+  background-image: -ms-linear-gradient(top, grey, white);
+  background-image: -o-linear-gradient(top, grey, white);
+  background-image: linear-gradient(to bottom, grey, white);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 585px) {
+  .worksImg {
+    height: 48vw;
+  }
+}

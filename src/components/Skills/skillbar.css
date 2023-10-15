@@ -1,0 +1,19 @@
+.skillBar {
+  display: flex;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: rgb(50, 50, 50);
+}
+
+.skillBarImg {
+  object-fit: cover;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 2rem;
+}
+
+.skillBarText > p {
+  font-size: 0.85rem;
+  font-weight: 200;
+}

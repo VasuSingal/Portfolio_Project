@@ -1,0 +1,60 @@
+.logo {
+  height: 4rem;
+  object-fit: cover;
+  width: 4rem;
+}
+
+.navbar {
+  height: 5rem;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: rgb(30, 30, 30);
+  border-bottom: 0.5px solid black;
+}
+
+.desktopMenuListItem {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.desktopMenuListItem:hover {
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow;
+}
+
+.desktopMenuBtn {
+  background: white;
+  background-image: -webkit-linear-gradient(top, white, grey);
+  background-image: -moz-linear-gradient(top, white, grey);
+  background-image: -ms-linear-gradient(top, white, grey);
+  background-image: -o-linear-gradient(top, white, grey);
+  background-image: linear-gradient(to bottom, white, grey);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.desktopMenuBtn:hover {
+  background: grey;
+  background-image: -webkit-linear-gradient(top, grey, white);
+  background-image: -moz-linear-gradient(top, grey, white);
+  background-image: -ms-linear-gradient(top, grey, white);
+  background-image: -o-linear-gradient(top, grey, white);
+  background-image: linear-gradient(to bottom, grey, white);
+  text-decoration: none;
+  cursor: pointer;
+}
